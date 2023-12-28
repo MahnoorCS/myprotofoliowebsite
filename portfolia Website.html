@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolia Website</title>
+    <link rel="stylesheet" href="./portfolia Website_files/style.css">
+</head>
+<body>
+    <div class="menu">
+    <ul>
+        <li><a href="http://127.0.0.1:5500/GulguhstcolonyMultan">Home</a></li>
+        <li><a href="http://127.0.0.1:5500/MahnoorSohail">About Us</a></li>
+        <li><a href="http://127.0.0.1:5500/StudentofCS">Services</a></li>
+        <li><a href="http://127.0.0.1:5500/0306-8569380">Contact</a></li>
+    </ul>
+    </div>
+    <div class="main" id="first">
+        <p class="name">I am Mahnoor Sohail</p>
+        <p class="org">From MNSUAM</p>
+    </div>
+    <div class="main" id="second">
+        <img src="./portfolia Website_files/image.jpeg" alt="my img">
+        <p class="bio">I'm a passionate student pursuing a Bachelor of Science in Computer Science. My love for coding knows no bounds as I dive into the intricate world of algorithms, software development, and innovative problem-solving. In the realm of technology, I'm on a perpetual quest to expand my coding horizons. From crafting elegant code in Python to exploring the endless possibilities of web development and artificial intelligence, every line of code is a step in my journey of continuous learning and growth.
+            But my journey doesn't end with the binary digits; it beautifully converges with the vibrant strokes of my paintbrush. As an avid painter, I find solace in the world of colors, textures, and self-expression. From capturing the essence of a moment on canvas to experimenting with various mediums, each painting is a unique reflection of my creative spirit.
+            Beyond the screens and canvases, I am an enthusiastic explorer of the world. Whether it's delving into the diverse cultures through travel, connecting with fellow coders and artists in vibrant communities, or seeking inspiration in the pages of a good book, I thrive on the richness of experiences that life has to offer.</p>
+    </div>
+    <div class="main" id="third">
+         <p class="hobbies">🌟 Hobbies &amp; Interest:</p>
+         <ul>
+         <li>I'm all about blending the tech and the artistic, finding joy in the balance between logic and creativity.</li>
+         <li>💻 Coding Enthusiast: As a BSCS student, I dive into the world of algorithms and software, crafting elegant code in languages like Python and exploring the realms of web development and AI. Coding isn't just a skill; it's my playground of endless possibilities.</li>
+         <li>🎨 Passionate Painter: Beyond the pixels, I'm a painter at heart. Canvas and brushes are my tools for self-expression. Each stroke and blend is a unique journey into the vibrant world of colors and textures.</li>
+         <li>✈️ World Explorer: I'm not just exploring lines of code; I'm exploring the world. Whether it's through travel, connecting with diverse cultures, or immersing myself in the pages of a good book, I thrive on the richness of experiences.</li>
+         <li>🤝 Community Connector: I believe in the power of connections. From coding communities to art groups, I enjoy building networks, collaborating, and learning from the diverse perspectives of fellow enthusiasts. </li>
+         </ul>
+    </div>
+    <div class="main" id="fourth">
+        <p class="heading">Contact me!</p>
+        <a href="http://127.0.0.1:5500/mahnoorsohail1405@gmail.com" class="button">send me an email</a>
+    </div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
